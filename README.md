@@ -24,7 +24,7 @@ Car Rental Internal Booking System created using Odoo framework
 
 - Car Rental System is a simple internal car booking system.
 - Technical assignment requested by Leading Point Software for practicing
-  the Odoo framewrok after finishing the first 8 chapters from [
+  the Odoo framework after finishing the first 8 chapters from [
   Odoo 14 Development Cookbook - Fourth Edition](https://github.com/PacktPublishing/Odoo-14-Development-Cookbook-Fourth-Edition) book.
 
 ### Task Description
@@ -54,7 +54,7 @@ Car Rental Internal Booking System created using Odoo framework
 
 ## Features
 
-- User can explore the availble cars for rent, and see all the car details like name, price, ..etc.
+- User can explore the available cars for rent, and see all the car details like name, price, ..etc.
 
 <div align="center">
   <img src='https://user-images.githubusercontent.com/80676788/232313448-a22ea0d7-e641-4e49-a67f-ec9b6a1e37bd.gif' width='75%'/>
@@ -193,7 +193,7 @@ Then open your browser on [http://localhost:8069](http://localhost:8069) to see 
 
 ## Acknowledgements
 
-- This project was inspired and requested by Leaading Point Software.
+- This project was inspired and requested by Leading Point Software.
 - This [Odoo 14 Development Cookbook - Fourth Edition](https://github.com/PacktPublishing/Odoo-14-Development-Cookbook-Fourth-Edition) book which is a complete source that explains Odoo concepts.
 - This [Answer](https://www.odoo.com/forum/help-1/make-a-field-not-editable-by-user-but-by-code-211749) helped me how to make a field not editable by user.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-filter-records-for-tree-view-based-on-logged-in-user-for-admin-manager-i-want-show-evrey-record-for-normal-user-i-want-show-records-created-by-that-particular-user-only-129051) helped me how to filter records for tree view based on logged in user.

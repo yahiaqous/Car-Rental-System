@@ -1,0 +1,71 @@
+<odoo>
+
+
+  <!-- Views -->
+
+  <!-- Tree View -->
+  <record id="available_cars_view_tree" model="ir.ui.view">
+    <field name="name">Available Cars</field>
+    <field name="model">car_rental_system.car</field>
+    <field name="arch" type="xml">
+      <tree>
+        <field name="name" />
+        <field name="state" />
+        <field name="rent_price" />
+        <field name="description" />
+      </tree>
+    </field>
+  </record>
+
+  <!-- Form View -->
+  <record id="available_cars_view_form" model="ir.ui.view">
+    <field name="name">Available Cars</field>
+    <field name="model">car_rental_system.car</field>
+    <field name="arch" type="xml">
+      <form>
+        <header>
+          <button name="reserve_car" string="Reserve this Car" type="object" class="btn-primary" attrs="{'invisible':[('state', '!=', 'available')]}" />
+          <button name="unreserve_car" string="Unreserve this Car" type="object" class="btn-primary" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '!=', 'rented')]}" />
+
+
+          <button name="mark_available" string="Mark Car Available" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '!=', 'damaged')]}" />
+          <!-- <button name="mark_reserved" string="Mark Car Reserved" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '=', 'rented')]}" /> -->
+          <button name="damaged_car" string="Mark Car Damaged" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '=', 'damaged')]}" />
+        </header>
+
+        <group>
+          <field name="name" />
+          <field name="rent_price" />
+          <field name="description" />
+        </group>
+
+        <group>
+          <field name="state" />
+        </group>
+      </form>
+    </field>
+  </record>
+
+
+  <!-- Actions -->
+
+  <record id="available_cars_menu_action" model="ir.actions.act_window">
+    <field name="name">Available Cars</field>
+    <field name="res_model">car_rental_system.car</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+
+  <!-- Menus -->
+
+  <menuitem id="car_rental_system_base_menu" name="Car Rental" />
+
+  <menuitem
+    name="Available Cars"
+    id="car_rental_system_menu"
+    parent="car_rental_system_base_menu"
+    action="available_cars_menu_action"
+    sequence="1" />
+
+
+</odoo>

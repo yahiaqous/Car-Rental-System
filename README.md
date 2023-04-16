@@ -152,7 +152,7 @@ Car Rental Internal Booking System created using Odoo framework
 </div>
 <br />
 
-<h2 align="center">Manger User Features</h2>
+<h2 align="center">Manager User Features</h2>
 <div align="center">
   <img src='https://user-images.githubusercontent.com/80676788/232314382-dfd67246-952a-424d-871c-18c103a221b5.gif' width='75%'/>
 </div>

@@ -176,7 +176,7 @@ $ sudo npm install -g rtlcss
 # Clone the Repo
 $ git clone git@github.com:yahiaqous/Car-Rental-System.git src
 $ cd src
-$ ../odoo/odoo-bin -c config.cfg --dev=all -i car_rental_system
+$ ../odoo/odoo-bin -d cardb --addons-path=../odoo/addons,. -i car_rental_system --dev all --db-filter '.*'
 ```
 
 Then open your browser on [http://localhost:8069](http://localhost:8069) to see the result.

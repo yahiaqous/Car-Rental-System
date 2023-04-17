@@ -198,7 +198,7 @@ Then open your browser on [http://localhost:8069](http://localhost:8069) to see 
 - This [Answer](https://www.odoo.com/forum/help-1/make-a-field-not-editable-by-user-but-by-code-211749) helped me how to make a field not editable by user.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-filter-records-for-tree-view-based-on-logged-in-user-for-admin-manager-i-want-show-evrey-record-for-normal-user-i-want-show-records-created-by-that-particular-user-only-129051) helped me how to filter records for tree view based on logged in user.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-make-buttons-invisible-based-on-a-condition-82326) helped me how to make buttons invisible based on a condition.
-- This [Answer](https://www.odoo.com/forum/help-1/button-call-function-from-another-module-in-xml-47838) helped me how make a button call function from another module in xml.
+- This [Answer](https://www.odoo.com/forum/help-1/button-call-function-from-another-module-in-xml-47838) helped me how to make a button call function from another module in xml.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-add-a-default-group-by-filter-to-tree-view-29874) and this [Answer](https://www.odoo.com/forum/help-1/group-by-expand-search-view-default-context-action-act-window-in-odoo13-191752) helped me for grouping the records in tree view.
 
 &nbsp;

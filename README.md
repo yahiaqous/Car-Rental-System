@@ -57,88 +57,98 @@ Car Rental Internal Booking System created using Odoo framework
 - User can explore the available cars for rent, and see all the car details like name, price, ..etc.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313448-a22ea0d7-e641-4e49-a67f-ec9b6a1e37bd.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330429-33b092ae-5028-4bc2-98a9-bdb38773b6b4.gif' width='75%'/>
 </div>
 <br />
 
 - User can reserve the available cars.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313493-03e1f813-dce3-4656-8f40-0f6cfa836115.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330519-4d92e133-f20f-4828-918d-469d310bfd0d.gif' width='75%'/>
 </div>
 <br />
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313503-f51d17ca-3e22-4106-8eb9-dda8962dd2ab.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330557-88511c78-6de4-4b85-9f79-6a7bd8c06b70.gif' width='75%'/>
 </div>
 <br />
 
 - User can explore all his reservation history.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313525-507eb06f-7a7c-493b-90c0-514995be5196.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330651-b40386ef-5f40-4742-8937-87699bd4a477.gif' width='75%'/>
 </div>
 <br />
 
 - User can request to unreserve car.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313531-90e2579d-7d72-4e21-8633-cda2282ef7d2.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330763-33d1dbe1-6d8f-4eab-b1fc-aaf120012cc2.gif' width='75%'/>
+</div>
+<br />
+
+<div align="center">
+  <img src='https://user-images.githubusercontent.com/80676788/233330840-f94101f8-27bf-43e9-9c24-9f719c1dc5f8.gif' width='75%'/>
 </div>
 <br />
 
 - Manager user can create, update, delete the cars.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313556-be4208fa-a195-4acb-aeb3-9dd97e0fed01.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330884-df8a4660-ca14-4f3a-9887-7f3dd3040101.gif' width='75%'/>
 </div>
 <br />
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313566-20a0b558-6f96-4393-bbb0-8488766797c9.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330938-603f2e8c-8a31-4d5d-84b6-32e51dcdd068.gif' width='75%'/>
 </div>
 <br />
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313573-ae16d2ac-b2ff-41a6-aa0d-0d2863522d8f.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233330999-56ffbebc-3073-4599-987f-c5b145534d2f.gif' width='75%'/>
 </div>
 <br />
 
 - Manager user can reserve the cars to users.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313583-8ccfb8d3-8dc5-4b58-99ad-72cec9878635.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331064-12d1b71c-43d9-4e6d-b76a-50815633f2d7.gif' width='75%'/>
 </div>
 <br />
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313598-432b99c2-ad36-4301-a4c9-bbe162ae7815.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331117-7ae7335f-7f29-4a41-95bc-6da7ec7d9ce1.gif' width='75%'/>
 </div>
 <br />
 
 - Manager user can explore all reservation history for all cars and users.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313604-444e8d49-3255-416a-816c-668b75c66205.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331171-d50a9ed8-da05-4b0c-9a7b-52b168a09bba.gif' width='75%'/>
+</div>
+<br />
+
+<div align="center">
+  <img src='https://user-images.githubusercontent.com/80676788/233331269-b8726405-0848-4ef0-b290-718ba2182e71.gif' width='75%'/>
 </div>
 <br />
 
 - Manager user can unreserve the rented cars.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313614-4a846d2a-36ac-4d0d-b88b-64f981b1b424.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331329-ab1afcc0-095e-4c44-81e1-2af214ffb696.gif' width='75%'/>
 </div>
 <br />
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313626-95c030c0-c714-4ce1-bd1a-1dbd13f41f09.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331371-f4f523d1-bd19-4f75-8d93-59ec47c1a7e7.gif' width='75%'/>
 </div>
 <br />
 
 - Manager user can mark the car as damaged, which will not be available for rent, and vice versa.
 
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232313640-a3804c5b-dbec-4f43-b6b6-b52519810feb.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233331431-7744e1a5-c294-455a-96dd-bfd28ab9ae54.gif' width='75%'/>
 </div>
 <br />
 
@@ -148,13 +158,13 @@ Car Rental Internal Booking System created using Odoo framework
 
 <h2 align="center">Normal User Features</h2>
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232314306-ff227f21-8019-4d0b-b5d1-561ac292d4e9.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233336797-a4772abd-0a7d-45d4-aa29-193643072aed.gif' width='75%'/>
 </div>
 <br />
 
 <h2 align="center">Manager User Features</h2>
 <div align="center">
-  <img src='https://user-images.githubusercontent.com/80676788/232314382-dfd67246-952a-424d-871c-18c103a221b5.gif' width='75%'/>
+  <img src='https://user-images.githubusercontent.com/80676788/233336859-faf011f0-54d2-479b-a996-4a31e876efd9.gif' width='75%'/>
 </div>
 <br />
 
@@ -176,7 +186,7 @@ $ sudo npm install -g rtlcss
 # Clone the Repo
 $ git clone git@github.com:yahiaqous/Car-Rental-System.git src
 $ cd src
-$ ../odoo/odoo-bin -c config.cfg --dev=all -i car_rental_system
+$ ../odoo/odoo-bin -d cardb --addons-path=../odoo/addons,. -i car_rental_system --dev all --db-filter '.*'
 ```
 
 Then open your browser on [http://localhost:8069](http://localhost:8069) to see the result.
@@ -195,10 +205,13 @@ Then open your browser on [http://localhost:8069](http://localhost:8069) to see 
 
 - This project was inspired and requested by Leading Point Software.
 - This [Odoo 14 Development Cookbook - Fourth Edition](https://github.com/PacktPublishing/Odoo-14-Development-Cookbook-Fourth-Edition) book which is a complete source that explains Odoo concepts.
+- This [Tutorial](https://www.cybrosys.com/blog/how-to-add-smart-buttons-in-odoo-15) helped me how to add a smart button.
 - This [Answer](https://www.odoo.com/forum/help-1/make-a-field-not-editable-by-user-but-by-code-211749) helped me how to make a field not editable by user.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-filter-records-for-tree-view-based-on-logged-in-user-for-admin-manager-i-want-show-evrey-record-for-normal-user-i-want-show-records-created-by-that-particular-user-only-129051) helped me how to filter records for tree view based on logged in user.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-make-buttons-invisible-based-on-a-condition-82326) helped me how to make buttons invisible based on a condition.
-- This [Answer](https://www.odoo.com/forum/help-1/button-call-function-from-another-module-in-xml-47838) helped me how make a button call function from another module in xml.
+- This [Answer](https://www.odoo.com/forum/help-1/button-call-function-from-another-module-in-xml-47838) helped me how to make a button call function from another module in xml.
+- This [Answer](https://www.odoo.com/forum/help-1/how-to-get-the-logged-user-111605) helped me how to get the current logged in user.
+- This [Answer](https://stackoverflow.com/questions/74223259/how-to-set-a-domain-for-a-view-odoo-15) helped me how to set a domain for a view.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-add-a-default-group-by-filter-to-tree-view-29874) and this [Answer](https://www.odoo.com/forum/help-1/group-by-expand-search-view-default-context-action-act-window-in-odoo13-191752) helped me for grouping the records in tree view.
 
 &nbsp;

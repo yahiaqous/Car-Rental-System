@@ -57,6 +57,7 @@
     <field name="name">Available Cars</field>
     <field name="res_model">car_rental_system.car</field>
     <field name="view_mode">tree,form</field>
+    <field name="domain">[('state', '=', 'available')]</field>
   </record>
 
 

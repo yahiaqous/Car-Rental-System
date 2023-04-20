@@ -15,6 +15,7 @@
         <field name="create_date" string="Rent Date" />
         <field name="return_date" />
 
+        <!-- Buttons -->
         <button name="unreserve_car" string="Unreserve Car" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('reservation_state', '=', 'returned')]}" />
         <button name="request_unreserve_car" string="Request Unreserve Car" type="object" attrs="{'invisible':[('reservation_state', '!=', 'ongoing')]}" />
       </tree>

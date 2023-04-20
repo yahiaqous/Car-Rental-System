@@ -24,23 +24,27 @@
     <field name="arch" type="xml">
       <form>
         <header>
+          <!-- Buttons -->
+
+          <!-- Reserve & Unreserve -->
           <button name="reserve_car" string="Reserve this Car" type="object" class="btn-primary" attrs="{'invisible':[('state', '!=', 'available')]}" />
           <button name="unreserve_car" string="Unreserve this Car" type="object" class="btn-primary" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '!=', 'rented')]}" />
 
+          <!-- Request Unreserve Car -->
+          <field name="reservation_request" invisible="1" />
+          <button name="request_unreserve_car" string="Request Unreserve Car" type="object" attrs="{'invisible':[('reservation_request', '=', False)]}" />
 
+          <!-- Damaged & Available -->
           <button name="mark_available" string="Mark Car Available" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '!=', 'damaged')]}" />
-          <!-- <button name="mark_reserved" string="Mark Car Reserved" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '=', 'rented')]}" /> -->
           <button name="damaged_car" string="Mark Car Damaged" type="object" groups="car_rental_system.group_managers" attrs="{'invisible':[('state', '=', 'damaged')]}" />
+
+          <field name="state" widget="statusbar" />
         </header>
 
         <group>
           <field name="name" />
           <field name="rent_price" />
           <field name="description" />
-        </group>
-
-        <group>
-          <field name="state" />
         </group>
       </form>
     </field>
@@ -53,6 +57,7 @@
     <field name="name">Available Cars</field>
     <field name="res_model">car_rental_system.car</field>
     <field name="view_mode">tree,form</field>
+    <field name="domain">[('state', '=', 'available')]</field>
   </record>
 
 

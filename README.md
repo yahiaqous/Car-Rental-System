@@ -212,7 +212,6 @@ Then open your browser on [http://localhost:8069](http://localhost:8069) to see 
 - This [Answer](https://www.odoo.com/forum/help-1/button-call-function-from-another-module-in-xml-47838) helped me how to make a button call function from another module in xml.
 - This [Answer](https://www.odoo.com/forum/help-1/how-to-get-the-logged-user-111605) helped me how to get the current logged in user.
 - This [Answer](https://stackoverflow.com/questions/74223259/how-to-set-a-domain-for-a-view-odoo-15) helped me how to set a domain for a view.
-- This [Answer](https://www.odoo.com/forum/help-1/how-to-add-a-default-group-by-filter-to-tree-view-29874) and this [Answer](https://www.odoo.com/forum/help-1/group-by-expand-search-view-default-context-action-act-window-in-odoo13-191752) helped me for grouping the records in tree view.
 
 &nbsp;
 

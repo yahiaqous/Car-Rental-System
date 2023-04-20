@@ -10,8 +10,6 @@ class Car(models.Model):
     _name = "car_rental_system.car"
     _description = "car_rental_system.car"
 
-    active = fields.Boolean(default=True)
-
     name = fields.Char("Car Name", required=True)
     description = fields.Text("Brief Description")
     rent_price = fields.Float("Rent Price", required=True)
@@ -52,15 +50,12 @@ class Car(models.Model):
             car.state = new_state
 
     def mark_available(self):
-        self.active = True
         self.change_state("available")
 
     def mark_reserved(self):
-        self.active = False
         self.change_state("rented")
 
     def mark_damaged(self):
-        self.active = False
         self.change_state("damaged")
 
     def reserve_car(self):
